@@ -11,7 +11,11 @@
 
 <Nav />
 {#key data.currentRoute}
-	<main in:fade={{ duration: 300, delay: 150 }} out:fade={{ duration: 150 }}>
+	<main
+		class="mx-auto w-11/12"
+		in:fade={{ duration: 300, delay: 150 }}
+		out:fade={{ duration: 150 }}
+	>
 		<slot />
 	</main>
 {/key}

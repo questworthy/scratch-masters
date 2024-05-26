@@ -20,7 +20,7 @@
 	});
 </script>
 
-<div class="flex justify-between items-center w-full p-6 mb-16">
+<div class="flex justify-between items-center w-full p-6 mb-16 h-48">
 	<div class="w-64 h-auto">
 		{#if hidden}
 			<a href="/">
