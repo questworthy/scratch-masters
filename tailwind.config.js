@@ -2,7 +2,11 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				josefin: "'Josefin Sans Variable', sans-serif"
+			}
+		}
 	},
 	plugins: [require('@tailwindcss/typography')]
 };
